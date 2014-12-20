@@ -1,0 +1,1 @@
+taskkill /IM cmd.exe /FI "WINDOWTITLE eq C:\windows\system32\cmd.exe - node*"

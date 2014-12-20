@@ -1,0 +1,28 @@
+extends layout
+
+block head
+    script(src="/javascripts/views/index.js")
+
+block content
+    div.col-lg-6
+        div.input-group
+            div.input-group-btn
+                button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
+                    | 试题
+                    //span.caret
+                //ul.dropdown-menu(role='menu')
+                //    li
+                //        a(href='#') Action
+                //    li
+                //        a(href='#') Another action
+                //    li
+                //        a(href='#') Something else here
+                //    li.divider
+                //    li
+                //        a(href='#') Separated link
+            input.form-control(type='text')
+            span.input-group-btn
+                button.btn.btn-default(type='button') 搜索
+
+
+

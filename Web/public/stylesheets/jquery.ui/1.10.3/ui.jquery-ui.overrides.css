@@ -1,0 +1,38 @@
+.ui-widget{ 
+    font-size: 0.8em; 
+}
+
+#tabStaff, 
+#tabStaff select,
+#tabStaff input,
+#tabStaff textarea,
+#tabStaff button,
+#tabProjects, 
+#tabProjects select,
+#tabProjects input,
+#tabProjects textarea,
+#tabProjects button,
+#tabVersions, 
+#tabVersions select,
+#tabVersions input,
+#tabVersions textarea,
+#tabVersions button,
+#tabProductFamilies,
+#tabProductFamilies select,
+#tabProductFamilies input,
+#tabProductFamilies textarea,
+#tabProductFamilies button,
+#tabScrum,
+#tabScrum select,
+#tabScrum input,
+#tabScrum textarea,
+#tabScrum button,
+#tabProductNotesProjectReview,
+#tabBusinessDriversProjectReview,
+#tabProjectNotesProjectReview,
+#tabProjectReviewNotesProjectReview
+{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-size: 14px !important;
+}
+
