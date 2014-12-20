@@ -39,8 +39,8 @@ module.exports = function (passport) {
           // Domain name is optional here, so append 
           // if not found.  It is not optional from 
           // the data layer.
-          if (email.indexOf("@igt.com") === -1) {
-              email += "@igt.com";
+          if (email.indexOf("@git.com") === -1) {
+              email += "@got.com";
           }
 
           findByEmail(email, function (err, user) {

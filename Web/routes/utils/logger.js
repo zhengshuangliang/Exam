@@ -21,7 +21,7 @@ winston.loggers.add('default', {
     },
     file: {
         level: 'error',
-        filename: './logs/sam_server_exceptions.log',
+        filename: './logs/project_server_exceptions.log',
         timestamp: 'true',
         handleExceptions: true,
         maxsize: 10485760,
@@ -39,7 +39,7 @@ winston.loggers.add('info', {
     },
     file: {
         level: 'info',
-        filename: './logs/sam_server_verbose.log',
+        filename: './logs/project_server_verbose.log',
         timestamp: 'true',
         handleExceptions: true,
         maxsize: 10485760,
@@ -57,7 +57,7 @@ winston.loggers.add('client', {
     },
     file: {
         level: 'error',
-        filename: './logs/sam_client_exceptions.log',
+        filename: './logs/project_client_exceptions.log',
         timestamp: 'true',
         handleExceptions: true,
         maxsize: 10485760,
