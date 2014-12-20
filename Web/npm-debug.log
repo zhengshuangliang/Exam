@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'node-inspector' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose cache add [ 'node-inspector', null ]
+6 verbose cache add name=undefined spec="node-inspector" args=["node-inspector",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'node-inspector',
+7 verbose parsed url   path: 'node-inspector',
+7 verbose parsed url   href: 'node-inspector' }
+8 silly lockFile 4198ef9e-node-inspector node-inspector
+9 verbose lock node-inspector C:\Users\c-zhengs\AppData\Roaming\npm-cache\4198ef9e-node-inspector.lock
+10 silly lockFile 4198ef9e-node-inspector node-inspector
+11 silly lockFile 4198ef9e-node-inspector node-inspector
+12 verbose addNamed [ 'node-inspector', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile e68b88da-node-inspector node-inspector@
+15 verbose lock node-inspector@ C:\Users\c-zhengs\AppData\Roaming\npm-cache\e68b88da-node-inspector.lock
+16 silly addNameRange { name: 'node-inspector', range: '*', hasData: false }
+17 verbose url raw node-inspector
+18 verbose url resolving [ 'https://registry.npmjs.org/', './node-inspector' ]
+19 verbose url resolved https://registry.npmjs.org/node-inspector
+20 info trying registry request attempt 1 at 16:03:17
+21 http GET https://registry.npmjs.org/node-inspector
+22 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+23 info trying registry request attempt 2 at 16:03:29
+24 http GET https://registry.npmjs.org/node-inspector
+25 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+26 info trying registry request attempt 3 at 16:04:30
+27 http GET https://registry.npmjs.org/node-inspector
+28 silly lockFile e68b88da-node-inspector node-inspector@
+29 silly lockFile e68b88da-node-inspector node-inspector@
+30 error Error: connect ECONNREFUSED
+30 error     at errnoException (net.js:904:11)
+30 error     at Object.afterConnect [as oncomplete] (net.js:895:19)
+30 error  { [Error: connect ECONNREFUSED]
+30 error   code: 'ECONNREFUSED',
+30 error   errno: 'ECONNREFUSED',
+30 error   syscall: 'connect' }
+31 error If you are behind a proxy, please make sure that the
+31 error 'proxy' config is set properly.  See: 'npm help config'
+32 error System Windows_NT 6.1.7601
+33 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "node-inspector"
+34 error cwd C:\Work\Code\Exercises\Web
+35 error node -v v0.10.28
+36 error npm -v 1.4.9
+37 error syscall connect
+38 error code ECONNREFUSED
+39 error errno ECONNREFUSED
+40 error stack Error: connect ECONNREFUSED
+40 error stack     at errnoException (net.js:904:11)
+40 error stack     at Object.afterConnect [as oncomplete] (net.js:895:19)
+41 verbose exit [ 1, true ]
